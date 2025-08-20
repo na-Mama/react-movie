@@ -6,7 +6,7 @@ import Detail from "./routes/Detail";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main style={{ padding: "20px" }}>
           <Routes>
