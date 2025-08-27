@@ -25,7 +25,7 @@ function Home() {
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div>
+        <div className="movieWrap">
           {movies.map((movie) => (
             <Movie
               key={movie.id}

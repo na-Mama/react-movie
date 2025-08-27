@@ -1,0 +1,48 @@
+.movieWrap {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+.movieWrap .movieContent {
+  flex: 1 1 200px;
+  /* width: 400px; */
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #ededed;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 20px 20px 20px 140px;
+  margin: 20px;
+  /* margin: 40px; */
+  /* padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ededed;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 20px 20px 20px 140px; */
+}
+.movieWrap img {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+  z-index: 0;
+}
+.movieWrap h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.movieWrap p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.movieWrap li {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
